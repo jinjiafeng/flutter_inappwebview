@@ -704,7 +704,7 @@ final public class InAppWebView extends InputAwareWebView {
 
         if (event.getPointerCount() > 1) {
           //Multi touch detected
-          return true;
+          return false;
         }
 
         if (options.disableHorizontalScroll && options.disableVerticalScroll) {
